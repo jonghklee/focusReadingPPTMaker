@@ -27,7 +27,20 @@
    cd focus-reading-ppt-generator
    ```
 
-3. 필요한 Python 패키지를 설치합니다:
+3. 가상 환경을 만듭니다:
+
+   ```bash
+   python -m venv venv
+   ```
+
+4. 가상 환경을 활성화합니다:
+
+
+   ```bash
+   venv\Scripts\activate
+   ```
+
+5. 필요한 Python 패키지를 설치합니다:
 
    ```bash
    pip install -r requirements.txt
